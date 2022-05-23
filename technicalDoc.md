@@ -70,8 +70,6 @@ You have to select two plants for cross breeding, the goal is to score 100%.
     1. Play Again
     1. Testing Tool
 
-## How to display the trees
-Trees are created using css on html divs.
 
 # Backend 
 Backed for this application is built using typescript.
