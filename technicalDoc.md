@@ -20,7 +20,6 @@
     |- Generating next level trees
     |- Using generic testing tool
 
-|- Documentation Refference
 ```
 # Home
 
@@ -134,7 +133,7 @@ Backed for this application is built using typescript.
     |-storyboard
 ```
 ## 2. File name and its application
-1. index.html :- This is html file which user use to play game
+1. index.html :- This html file is HomePage for game app.
 
 1. style.css :- This css file contains all the necessary styles and animations used to design game.
 
@@ -208,7 +207,7 @@ function generateTreeList()
 function setTreeType() 
 ```
 
-* It is used to just initialising the tree types.
+* It is used to initialising the tree types.
 
 ```typescript
 function shuffleTree()
@@ -224,19 +223,19 @@ function randomNumber(min, max)
 
 1. Mouse click:
 
-if testing button is clicked and tools switch is checked and it must be mobile device
+if testing tool button is clicked and tools switch is checked and it must be mobile device
 
 selected tree will display its type using tree classes writetype method and for other trees deselectTree method will be called.
 
 
 if its not mobile device, it will check for each tree in the list if click is inside any tree it will get selected, if choisecount is 2 that means user has selected two trees for cross breeding that we have to generate the result.
 
-if generation count is 4 then we have to stop the game user has reached maz=ximum genration, if user have lost the game, display respective buttons.
+if generation count is 4 then we have to stop the game user has reached maximum genration, if user have lost the game, display respective buttons.
 
 
 2. Mouse move
 
-if it is not mobile device  and testing button is clicked then on mouse move testing tool should appear.
+if it is not mobile device and testing tool button is clicked then on mouse move testing tool should appear.
 
 for each tree if mouse is inside any tree its type will be visible.
 
@@ -284,6 +283,3 @@ After user can not win in 3 generations, When clicking on generic testing tool b
 
 
 resetValues() functions resets all the required variables.
-
-# Reference for documentation
-https://www.cockroachlabs.com/docs/
